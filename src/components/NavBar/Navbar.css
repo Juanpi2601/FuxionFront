@@ -1,0 +1,4 @@
+.nav-link,
+.nav-dropdown-title {
+  color: #0089CF !important; /* Usa !important si es necesario */
+}
