@@ -6,7 +6,7 @@ import './NavBar.css';
 
 const NavBar = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary p-3 mb-5">
       <Container>
         <Link to="/">
           <img className="w-auto" src={logo} alt="Logo" />

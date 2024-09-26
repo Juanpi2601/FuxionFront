@@ -1,0 +1,46 @@
+
+.boton1{
+    background: #0089CF !important;
+    color: white !important;
+}
+
+
+@media (min-width: 768px) {
+    .imgfluid {
+        border-radius: 25px; 
+        height: 60%; 
+        width: 80%; 
+        max-width: 100%; 
+    }
+    .text1 {
+        font-size: 3rem; 
+        line-height: 1.2; 
+        
+    }
+    p {
+        color: #a0a0a0; 
+        
+    }
+}
+
+@media (max-width: 767px) {
+    .text1 {
+        font-size: 2rem; 
+        text-align: center;
+    }
+  
+    p {
+        color: #a0a0a0; 
+        text-align: center;
+    }
+    
+    
+    .imgfluid {
+        border-radius: 35px; 
+        object-fit: cover; 
+        height: 100%;
+        width: 100%; 
+        max-width: 100%; 
+    }
+}
+
